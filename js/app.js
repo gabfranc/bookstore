@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const results = searchBooksByTitle(searchTerm);
       displaySearchResults(results);
   });
-//jiojiojiojiojiojoijojoijioj
+
   function displaySearchResults(results) {
       var output = '';
       results.forEach(book => {
